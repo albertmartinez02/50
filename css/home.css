@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 185, 0);
+    background-color: #d3a118d3;
 }
 
 *{
@@ -8,10 +8,25 @@ body{
     box-sizing: border-box;
 }
 
+.top {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px;
+}
+
 h1{
     font-size: 50px;
     padding: 20px;
     color: rgb(168, 5, 52);
+}
+
+.search input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px; /* Adjust the width of the search input */
 }
 
 .counties_img{
@@ -21,16 +36,16 @@ h1{
     margin-bottom: 20px;
 }
 
-ul{
-    padding-left: 2em;
-}
-
 li{
-    height: 60px;
+    height: 70px;
     width: auto;
     line-height: 2.5;
-    border-width: thin;
-    border-color: red;
+    border-width: medium;
+    border-color:  rgb(168, 5, 52);
     border-style: solid;
     padding: 10px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 20px;
+    
 }
