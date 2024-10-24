@@ -18,4 +18,19 @@ h1{
     height: auto;
     width: 800px;
     border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+ul{
+    padding-left: 2em;
+}
+
+li{
+    height: 60px;
+    width: auto;
+    line-height: 2.5;
+    border-width: thin;
+    border-color: red;
+    border-style: solid;
+    padding: 10px;
 }
