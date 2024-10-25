@@ -26,7 +26,7 @@ h1{
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 250px; /* Adjust the width of the search input */
+    width: 250px; 
 }
 
 .counties_img{
@@ -34,6 +34,7 @@ h1{
     width: 800px;
     border-radius: 8px;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 li{
