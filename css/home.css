@@ -1,5 +1,5 @@
 body{
-    background-color: #d3a118d4;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
 }
@@ -16,6 +16,7 @@ body{
     align-items: center; 
     padding: 20px;
     margin: 0px;
+    background-color: #FFFFFF;
 }
 
 h1{
@@ -35,6 +36,12 @@ h1{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    background-color: #D1C791;
+}
+
+.florida_flag{
+    width: 700px;
+    border-radius: 5%;
 }
 
 .about{
@@ -42,6 +49,18 @@ h1{
     flex-direction: column;
     width: 300px;
     gap: 20px;
+    background-color: #8BB174;
+    
+}
+
+.about_title{
+   font-weight: 900;
+   
+}
+
+.about_section .about{
+    font-size: 21px;
+    color: black;
 }
 
 ul{
@@ -51,6 +70,10 @@ ul{
     flex-wrap: wrap;
     gap: 20px;
     text-align: center;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    padding: 20px;
+    text-transform: uppercase;
 }
 
 .counties_container{
@@ -61,7 +84,7 @@ ul{
 
 li{
     height: 200px;
-    width: 600px;
+    width: 550px;
     line-height: 2.5;
     border-width: medium;
     border-color:  rgb(168, 5, 52);
@@ -69,7 +92,8 @@ li{
     padding: 10px;
     margin-bottom: 5px;
     color: white;
-    font-size: 20px;
+    font-size: 22px;
+    background-color: #63D86D;
 }
 
 .sign_in_link{
