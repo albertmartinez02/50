@@ -16,16 +16,6 @@ body{
     margin: 0px;
 }
 
-.title_image{
-    display: flex;
-    gap: 15px;
-}
-
-.state_flag{
-    width: 300px;
-    height: 225px;
-}
-
 h1{
     font-size: 50px;
     color: rgb(168, 5, 52);
@@ -34,17 +24,14 @@ h1{
 .search input {
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 6px solid #ccc;
     border-radius: 5px;
     width: 250px; 
 }
 
-.counties_img{
-    height: auto;
-    width: 800px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    margin-left: 20px;
+.about_section{
+    display: flex;
+    
 }
 
 
@@ -59,4 +46,8 @@ li{
     margin-bottom: 5px;
     color: white;
     font-size: 20px;
+}
+
+.sign_in_link{
+    color: rgb(168, 5, 52);
 }
